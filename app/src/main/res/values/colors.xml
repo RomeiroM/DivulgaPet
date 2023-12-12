@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="tituloPrincipal">#0025A9</color>
+    <color name="textoInfo">#052D7B</color>
+    <color name="botaoAzul">#356DC1</color>
+    <color name="botaoVerde">#26582B</color>
 </resources>

@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".CadastroPet">
 
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Pet"
+        android:textColor="@color/tituloPrincipal"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/tv_texto"
+        android:layout_width="343dp"
+        android:layout_height="103dp"
+        android:text="@string/texto_cadastrar_pet"
+        android:textColor="@color/textoInfo"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:textColor="@color/textoInfo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="253dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

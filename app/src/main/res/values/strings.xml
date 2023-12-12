@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DivulgaPet</string>
+    <string name="texto_login_cadastro">Para ter acesso a todo o conteúdo faça login ou cadastre-se.</string>
+    <string name="texto_login_cadastro_2">Somente com uma conta será possível cadastrar um pet desaparecido ou ter acesso a mais informações sobre osa tutores dos animais já cadastrados.</string>
+
+    <!-- - - - - - - Textos: Cadastrar Pet -->
+    <string name="texto_cadastrar_pet"> Aqui você pode cadastrar um animal de estimação desaparecido. Lembre-se toda informação é importante, passe o máximo de detalhes possível.</string>
+
+
 </resources>

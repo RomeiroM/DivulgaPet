@@ -3,7 +3,186 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".VisualizaPet">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_card_content"
+        android:layout_width="347dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pet">
+
+
+        <TextView
+            android:id="@+id/tv_potencia"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Nome:"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="59dp" />
+
+
+        <TextView
+            android:id="@+id/tv_potencia_value"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="NomePet"
+            app:layout_constraintStart_toEndOf="@id/tv_potencia"
+            app:layout_constraintTop_toTopOf="@id/tv_potencia" />
+
+        <TextView
+            android:id="@+id/tv_recarga"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:text="Lugar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_potencia" />
+
+        <TextView
+            android:id="@+id/tv_recarga_value"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="DD/MM/AAAA"
+            app:layout_constraintBottom_toBottomOf="@id/cl_card_content"
+            app:layout_constraintStart_toEndOf="@id/tv_recarga"
+            app:layout_constraintTop_toTopOf="@id/tv_recarga"
+            app:layout_constraintVertical_bias="0.293" />
+
+        <TextView
+            android:id="@+id/tv_recarga_value2"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(61) 12345-6789"
+            app:layout_constraintBottom_toBottomOf="@id/cl_card_content"
+            app:layout_constraintTop_toTopOf="@id/tv_recarga"
+            app:layout_constraintVertical_bias="0.694"
+            tools:layout_editor_absoluteX="132dp" />
+
+        <TextView
+            android:id="@+id/tv_pot"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:text="Data"
+            app:layout_constraintEnd_toStartOf="@+id/tv_recarga_value"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_recarga" />
+
+        <TextView
+            android:id="@+id/tv_pot3"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
+            android:text="Contato"
+            app:layout_constraintEnd_toStartOf="@+id/tv_recarga_value2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pot" />
+
+        <TextView
+            android:id="@+id/tv_lugar"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Nome Lugar"
+            app:layout_constraintStart_toEndOf="@id/tv_recarga"
+            app:layout_constraintTop_toTopOf="@id/tv_recarga" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Informações Importantes"
+            android:textColor="@color/textoInfo"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="88dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="36dp"
+        android:text="Detalhes"
+        android:textColor="@color/tituloPrincipal"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tv_pet"
+        android:layout_width="311dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_card_content_2"
+        android:layout_width="347dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_card_content">
+
+
+        <TextView
+            android:id="@+id/tv_info"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="268dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="20dp"
+            android:text="Texto Informativo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mais Informações"
+            android:textColor="@color/textoInfo"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
