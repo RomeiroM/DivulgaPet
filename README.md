@@ -7,6 +7,14 @@
 
 ## 📒Guia de Como Utizar o aplicativo 
 
+## 🔭 Protótipo criado utilizando o [Figma](https://www.figma.com/)
+
+<div align="center">
+    <p float="leaft">
+      <img src="https://github.com/RomeiroM/teste/assets/85644789/d4ef6953-8fad-4c3b-9fec-b40600c8b72c" width="544px">
+  </p>
+</div>
+
 
 ## 🧮Versões
 
