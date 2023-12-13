@@ -6,5 +6,5 @@
     <!-- - - - - - - Textos: Cadastrar Pet -->
     <string name="texto_cadastrar_pet"> Aqui você pode cadastrar um animal de estimação desaparecido. Lembre-se toda informação é importante, passe o máximo de detalhes possível.</string>
 
-
+    <string name="tx_eventos">Links rápidos para acessar notícias, dicas, ajuda e muito mais atividades do universo pet.</string>
 </resources>
