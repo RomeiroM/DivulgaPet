@@ -7,35 +7,207 @@
     tools:context=".CadastroPet">
 
 
-    <TextView
-        android:id="@+id/tv_titulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastrar Pet"
-        android:textColor="@color/tituloPrincipal"
-        android:textSize="24dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="55dp" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/tv_texto"
-        android:layout_width="343dp"
-        android:layout_height="103dp"
-        android:text="@string/texto_cadastrar_pet"
-        android:textColor="@color/textoInfo"
-        android:textSize="18dp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="113dp" />
 
-    <TextView
-        android:id="@+id/tv_subtitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cadastro"
-        android:textColor="@color/textoInfo"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="253dp" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp">
+
+            <TextView
+                android:id="@+id/tv_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Pet"
+                android:textColor="@color/tituloPrincipal"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="55dp" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_cadastrar_pet"
+                android:textColor="@color/textoInfo"
+                android:textSize="18dp"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <TextView
+                android:id="@+id/tv_subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastro"
+                android:textColor="@color/tituloPrincipal"
+                android:textSize="24dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="55dp" />
+
+            <TextView
+                android:id="@+id/tv_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do Pet"
+                android:textColor="@color/textoInfo"/>
+
+            <EditText
+                android:id="@+id/et_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Nome do Pet" />
+
+            <TextView
+                android:id="@+id/tv_especie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Espécie" />
+
+            <EditText
+                android:id="@+id/et_especie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Passaro, Gato, Cachorro ou outros" />
+
+            <TextView
+                android:id="@+id/tv_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Cor" />
+
+            <EditText
+                android:id="@+id/et_cor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Cor predominante" />
+
+            <TextView
+                android:id="@+id/tv_sexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Sexo" />
+
+            <EditText
+                android:id="@+id/et_sexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Macho ou Fêmea" />
+
+            <TextView
+                android:id="@+id/tv_porte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Porte" />
+
+            <EditText
+                android:id="@+id/et_porte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Pequeno, Médio ou Grande" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Cidade" />
+
+            <EditText
+                android:id="@+id/et_cidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Cidade" />
+
+            <TextView
+                android:id="@+id/tv_estado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Estado" />
+
+            <EditText
+                android:id="@+id/et_estado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Estado"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tv_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:text="Telefone" />
+
+            <EditText
+                android:id="@+id/et_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Telefone para contato" />
+
+            <TextView
+                android:id="@+id/tv_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detalhes" />
+
+            <EditText
+                android:id="@+id/et_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textoInfo"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Passe o máximo de informações"/>
+
+            <Button
+                android:id="@+id/bt_arquivo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/botaoAzul"
+                android:text="Escolher Arquivo" />
+
+            <Button
+                android:id="@+id/bt_cadastrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/botaoVerde"
+                android:text="Cadastrar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

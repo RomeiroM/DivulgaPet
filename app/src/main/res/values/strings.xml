@@ -7,4 +7,10 @@
     <string name="texto_cadastrar_pet"> Aqui você pode cadastrar um animal de estimação desaparecido. Lembre-se toda informação é importante, passe o máximo de detalhes possível.</string>
 
     <string name="tx_eventos">Links rápidos para acessar notícias, dicas, ajuda e muito mais atividades do universo pet.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- - - Textos: Principal - - -->
+
+    <string name="texto_principal">Aqui estão todos os animais registrados que encontram-se desaparecidos. Para mais informações clique na imagem e obtenha mais informações sobre os bichinhos.</string>
 </resources>
