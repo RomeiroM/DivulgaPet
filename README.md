@@ -3,11 +3,10 @@
 
 - Aplicativo criado para auxiliar na divulgação de animais perdidos.
 - Desenvolvido com a versão Giraffe do Android Studio.
-- JDK 34
 
 ## 📒Guia de Como Utizar o aplicativo 
 
-## 🔭 Protótipo criado utilizando o [Figma](https://www.figma.com/)
+🔭 Protótipo criado utilizando o [Figma](https://www.figma.com/)
 
 <div align="center">
     <p float="leaft">
@@ -15,6 +14,17 @@
   </p>
 </div>
 
+
+| Nome da Tela  | Descrição |
+| ------------- | ------------- |
+|Login Cadastro | É a primeira tela que aparece para o usuário e possibilita que ele faça o login, se cadastre ou redefina a senha.|
+|  Cadastro  | Permiti que o usuário faça cadastro para ter acesso a aplicação  |
+| Principal  | É a tela principal da aplicação, nela será exibida as imagens dos animais desaparecidos e quando uma imagem for clicada o usuário terá acesso á mais detalhes do animal|
+|  Detalhes  | Aqui é exibido a imagem, nome, lugar, data, contato do tutor e mais informações sobre o pet selecionado.  |
+| Cadastro Pet  |  Essa tela permite que o usuário cadastre um pet desaparecido passando todas as informações possíveis |
+| Eventos  | Aqui ficará todos os eventos relevantes que envolvam o universo dos animais de estimação  |
+| Atualizar Pet  | Possibilita que o usuário edite as informações do animal cadastrado  |
+| Atualizar Cadastro  | É exibido o perfil do usuário, com campos editáveis e informações do animal de estimação cadastrado |
 
 
 ## 🧮Versões
