@@ -2,7 +2,7 @@
 ## 📑Descrição da aplicação
 
 - Aplicativo criado para auxiliar na divulgação de animais perdidos.
-- Desenvolvido com a versão Giraffe do Android Studio.
+- Desenvolvido com a versão Giraffe do Android Studio e a linguagem Kotlin.
 
 ## 📒Guia de Como Utizar o aplicativo 
 
@@ -44,3 +44,6 @@
 - Implementação da verificação de email
 - Tornar o cadastro de eventos dinâmico.
 - Implementação do filtro de busca de animais.
+
+----------
+🚧Em Construção🚧
